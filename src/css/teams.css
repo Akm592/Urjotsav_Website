@@ -1,0 +1,58 @@
+@font-face {
+	font-family: herry;
+	src: url('../assets/font/HARRYP__.TTF');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: owl;
+	src: url('../assets/font/MagicOwl-PersonalUse.otf');
+	font-weight: 400;
+}
+
+.team {
+background-image: url(./teams.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	font-family: herry;
+}
+
+#heads {
+	color: #ffffff;
+		/* font-family: herry; */
+		font-size: 12em;
+		font-weight: 400;
+		letter-spacing: 0;
+		line-height: normal;
+		position: absolute;
+		text-align: center;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: auto;
+}
+
+.label {
+	height: 155px;
+	width: 620px;
+}
+
+.label .text-wrapper {
+	color: #ffffff;
+	font-family: "herry", Helvetica;
+	font-size: 80px;
+	font-weight: 400;
+	left: 0;
+	letter-spacing: 0;
+	line-height: normal;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	margin-top: 12%;
+	width: 100%;
+}
+

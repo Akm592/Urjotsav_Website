@@ -1,0 +1,146 @@
+
+@font-face {
+    font-family: herry;
+    src: url('../assets/font/HARRYP__.TTF');
+    font-weight: 700;
+}
+.events{
+    background-image: url(../assets/img/Events.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    font-family: herry;
+
+}
+
+.animation,
+.animation_layer {
+    height: 1000px;
+}
+
+.animation {
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.animation_layer {
+    background-position: bottom center;
+    background-size: auto 1038px;
+    background-repeat: repeat-x;
+    width: 100%;
+    position: absolute;
+}
+
+.animation_layer.parallax {
+    position: fixed;
+}
+
+#artbac {
+    /* background-image: url(../assets/img/banner-bg.png); */
+    background: #ffffff00;
+    height: 100vh;
+    width: 100%;
+}
+
+/* #mountain {
+  background-image: url(./images/done111.png);
+} */
+
+
+/* 
+#jungle1 {
+  background-image: url(./images/jungle1.png);
+}
+
+#jungle2 {
+  background-image: url(./images/jungle2.png);
+}
+
+#jungle3 {
+  background-image: url(./images/jungle3.png);
+}
+
+#jungle4 {
+  background-image: url(./images/jungle4.png);
+}
+
+#jungle5 {
+  background-image: url(./images/jungle5.png);
+}
+
+#manonmountain {
+  background-image: url(./images/man_on_mountain.png);
+} */
+
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 253px;
+    width: 690px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.box .group {
+    position: relative;
+    height: 253px;
+    width: 100%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.box .text-wrapper {
+    color: #ffffff;
+    font-family: herry;
+    font-size: 128px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 620px;
+}
+
+.box .div {
+    color: #ffffff;
+    font-family: herry, Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .box {
+        width: 90%;
+    }
+
+    .box .text-wrapper {
+        font-size: 60px;
+        width: 90%;
+    }
+
+    .box .div {
+        font-size: 24px;
+    }
+}
